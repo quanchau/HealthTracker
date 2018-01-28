@@ -8,20 +8,16 @@
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-
-        <ExpandableListView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="150dp" />
+        android:layout_height="57dp"
+        android:background="@android:color/background_light"
+        android:theme="@style/AppTheme">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
+            android:layout_height="match_parent"
             android:background="@android:color/background_light"
-            android:theme="@style/AppTheme.PopupOverlay" />
+            android:theme="@style/AppTheme.NoActionBar" />
 
     </android.support.design.widget.AppBarLayout>
 
